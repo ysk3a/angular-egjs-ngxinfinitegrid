@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { NgxInfiniteGridModule } from "@egjs/ngx-infinitegrid";
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxInfiniteGridModule
   ],
   providers: [],
   bootstrap: [AppComponent]
